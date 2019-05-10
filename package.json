@@ -1,32 +1,41 @@
 {
   "name": "bakemore",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
-    "@fortawesome/react-fontawesome": "^0.1.4",
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
     "bootstrap": "^4.3.1",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
     "mdbreact": "^4.11.0",
     "moment": "^2.24.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.12.0",
+    "nodemailer": "^6.1.1",
+    "nodemon": "^1.19.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "^2.1.8"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node index.js",
+    "server" :"nodemon index.js",
+    "client" : "npm run start --prefix client",
+    "dev" : "concurrently \"npm run server\" \"npm run client\""
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyaamithun/Bakemore.git"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyaamithun/Bakemore/issues"
+  },
+  "homepage": "https://github.com/priyaamithun/Bakemore#readme"
 }
