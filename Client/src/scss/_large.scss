@@ -38,7 +38,7 @@ body,html{
     }
     .pimg3{
         background-image: url('./Components/parallex-images/contact-image.jpg');
-        min-height: 500px;
+        height: 600px;
     }
     .section-dark-1{
         
@@ -100,7 +100,7 @@ body,html{
         font-family: $newFont;
     }
     .ptext-icon{
-    top:30%;
+    top:20%;
     
     }
     .ptext-icon h3{
@@ -112,7 +112,7 @@ body,html{
     
     
     .social-icons .fab, .fas{
-    font-size: 4rem;
+    font-size: 3rem;
     // margin:20px;
     color:wheat;
     }
@@ -125,7 +125,7 @@ body,html{
         grid-template-columns: 1.5fr 1fr;
         padding-top:20px; 
         padding-left:100px;
-        margin-left:450px;
+        margin-left:350px;
     
      img{
     
